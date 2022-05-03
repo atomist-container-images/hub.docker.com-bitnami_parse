@@ -1,18 +1,24 @@
-# Tags: latest, 5.2.1-debian-10-r1, 5.2.1, 5-debian-10, 5
+# Tags: latest, 5.2.1-debian-10-r2, 5.2.1, 5-debian-10, 5
 FROM bitnami/parse:latest
-FROM bitnami/parse:5.2.1-debian-10-r1
+FROM bitnami/parse:5.2.1-debian-10-r2
 FROM bitnami/parse:5.2.1
 FROM bitnami/parse:5-debian-10
 FROM bitnami/parse:5
 
-# Tags: 4.10.10-debian-10-r1, 4.10.10, 4-debian-10, 4
-FROM bitnami/parse:4.10.10-debian-10-r1
+# Tags: 4.10.10-debian-10-r2, 4.10.10, 4-debian-10, 4
+FROM bitnami/parse:4.10.10-debian-10-r2
 FROM bitnami/parse:4.10.10
 FROM bitnami/parse:4-debian-10
 FROM bitnami/parse:4
 
 # Tags: _
 FROM bitnami/parse:_
+
+# Tags: 4.10.10-debian-10-r1
+FROM bitnami/parse:4.10.10-debian-10-r1
+
+# Tags: 5.2.1-debian-10-r1
+FROM bitnami/parse:5.2.1-debian-10-r1
 
 # Tags: 4.10.10-debian-10-r0
 FROM bitnami/parse:4.10.10-debian-10-r0
@@ -189,9 +195,3 @@ FROM bitnami/parse:4.10.9-debian-10-r7
 
 # Tags: 5.2.0-debian-10-r10
 FROM bitnami/parse:5.2.0-debian-10-r10
-
-# Tags: 4.10.9-debian-10-r6
-FROM bitnami/parse:4.10.9-debian-10-r6
-
-# Tags: 5.2.0-debian-10-r9
-FROM bitnami/parse:5.2.0-debian-10-r9
